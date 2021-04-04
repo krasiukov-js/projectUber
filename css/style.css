@@ -17,7 +17,6 @@ background-color: #212121;
     padding: 13px 70px;
     margin: 0;
     list-style-type: none;
-    position: fixed;
 }
 
 .menu .menu_link {
@@ -134,3 +133,64 @@ text-decoration: none;
     text-transform: uppercase;
 }
 
+.reasons {
+    padding: 71px 0 65px 0;
+}
+
+.reasons_label {
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+}
+
+.reasons_header {
+    color: #222222;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 38px;
+}
+
+.reasons_round {
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+}
+
+.reasons_text {
+    width: 341px;
+}
+
+.reasons_title {
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.reasons_descr {
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: justifyLeft;
+}
+
+.reasons_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
