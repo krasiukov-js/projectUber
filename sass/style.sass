@@ -202,3 +202,71 @@ nav
             background-color: #000000
             border-radius: 100%
             cursor: pointer
+.choice
+    padding: 57px 0 138px 0
+    background: url('../images/choice_bg.png') center (center / cover) no-repeat
+    &_img
+        display: block
+        margin: 0 auto
+        margin-top: 56px
+    &_descr
+        color: #222222
+        font-size: 17px
+        font-weight: 300
+        text-align: center
+        margin-top: 4px
+    .label
+        background-color: #ffffff
+        color: #070716
+    .title
+        color: $color_white
+    .subtitle
+        color: $color_white
+
+.condition
+    padding: 76px 0 22px 0
+    .row
+        padding-top: 33px
+    &_block
+        margin: 0 auto
+        width: 478px
+        margin-bottom: 62px
+    &_title
+        font-size: 22px
+        font-weight: 400
+        &_blue
+            color: $color_blue
+        &_red
+            color: $color_red
+    &_ul
+        margin-top: 22px
+        color: #222222
+        font-size: 17px
+        font-weight: 300
+        text-align: left
+        position: relative
+        li
+            list-style-type: none
+        &_blue
+            li::before
+                position: absolute
+                content: url('../images/blue-check.png')
+                left: 0px
+                transform: translateY(10%)
+        &_red
+            li::before
+                position: absolute
+                content: url('../images/red-check.png')
+                left: 0px
+                transform: translateY(10%)
+        &_descr
+        color: $color_blue
+        font-weight: 300
+        margin-top: 22px
+
+
+
+
+        
+    
+    
